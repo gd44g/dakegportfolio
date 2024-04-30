@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Project Name: Personal Portfolio Website
+Youtube: https://youtube.com/@dake_smashers
+Copyright: ©dakeganesh -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | DakeGanesh</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>GD4</span>portfolio</a>
+          </div>
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+             
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h1 class="name">Dake  <span>Ganesh</span></h1>
+            <h3 class="profession">Web Developer</h3>
+            <p class="short-desc">
+              I have been working since 2021. I am proficient in  Web
+              development & in core java Development.
+            </p>
+            <a href="https://drive.google.com/file/d/1H02OWef9iiPC1G-Sdhp8Z1M3acHZWpEt/view?usp=sharing" target="_blank" class="btn-cv" download
+              >Download CV</a
+            >
+          </div>
+          <div class="bottom-right">
+            <a href="https://github.com/gd44g"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/dakeg3333?t=UlN4ZzHwll6dR9GZxNmbrA&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/ganesh-dake-a63b08228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- About section -->
+      <section id="about">
+        <div class="about-left">
+          <img src="gd7.png" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About Me</h2>
+            <h3 class="title">Web Developer</h3>
+          </div>
+          <p class="desc">
+            Driven Pre-Final year Computer Engineering student with a passion for web development. Skilled in building user-friendly and responsive web applications using [ HTML, CSS, JavaScript,react.js,mongodb,mysql]. Eager to leverage my skills to contribute to innovative web projects.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Core java</span><br />Developing Web/App interfaces
+              </li>
+              <li><span>Web Development</span><br />Web app development</li>
+              <li><span>Mern Stack</span><br />Dynamic website</li>
+              <li><span>Databases</span><br/>SQL,Mongodb</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2023 - 2023</span><br />
+                Intern webdeveloper at pheniexzone technologies pvt. Ltd.
+              </li>
+              <li>
+                <span>2023 - 2023</span><br />Intern WebHandler at firsthope.in
+              </li>
+              <li>
+                <span>2016 - Current</span><br />Content Creator at YouTube
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2021 - Current</span><br />B.E computer
+              </li>
+              <li>
+                <span>2021-2025</span><br />BE in CSE from Savitribaiphule Pune .
+                Univeristy
+              </li>
+              <li>
+                <span>2019-2021</span><br />HSC from Shanishwar College ,Sonai,A-Nagar.
+              </li>
+              <li>
+                <span>2018-2019</span><br/>SSC from Jawahar Madhyamik Vidhyalya ,Chanda.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Service section -->
+      <section id="service">
+        <div class="section-title">
+          <h2 class="sub-title">My Services</h2>
+          <h3 class="title">A brief of Offerting Services</h3>
+        </div>
+        <div class="services">
+          <div>
+            <i class="fa-brands fa-battle-net"></i>
+            <h2>Logo Creator</h2>
+            <p>
+             1. Online Logo Makers: Web-based platforms with user-friendly interfaces that allow users to create logos with pre-designed templates and tools. (e.g., Canva, LogoMakr)
+2.Logo Design Software: More advanced software applications offering greater customization and design control. (e.g., Adobe Illustrator, Affinity Designer)
+3.Logo Design Services: Hiring a professional graphic designer to create a custom logo tailored to your specific needs and brand identity.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Front-end development</h2>
+            <p>
+             1. Building User Interfaces (UI): Designing and developing the visual elements users see, including layout, typography, color schemes, and interactive components.
+2.Ensuring User Experience (UX): Focusing on creating a seamless, intuitive, and enjoyable experience for users interacting with the website.
+3.Responsiveness: Making sure the website adapts and displays correctly across different devices (desktop, mobile, tablet).
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Wordpress</h2>
+            <p>
+              1.Open-Source: Freely available and customizable content management system (CMS) based on PHP and MySQL.
+2.Easy to Use: User-friendly interface with a low barrier to entry, even for beginners with no coding knowledge.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-pix"></i>
+            <h2>Canva</h2>
+            <p>
+             1. Drag-and-Drop Design: User-friendly interface with drag-and-drop functionality for easy design creation.
+2.Large Template Library: Extensive collection of pre-designed templates for various purposes (presentations, social media posts, infographics, etc.).
+3.Stock Photos and Graphics: Offers a vast library of free and premium stock photos, illustrations, and icons.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-lock"></i>
+            <h2>Website Handler</h2>
+            <p>
+             1. Allows easy website content updates without needing coding knowledge. 2.Provides a centralized location for managing all website content.
+2.Offers user access control and content versioning.
+4.Simplifies website maintenance for non-developers.
+
+pen_spark
+
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Responsive-Website's</h2>
+            <p>
+              1.Responsive Content 2.Touch-Friendly Design 3.Fast Loading Times: Optimizes images, code, and resources to ensure the website loads quickly on all devices, including those with slower internet connections.
+4.Consistent User Experience.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio section -->
+      <section id="portfolio">
+        <div class="section-title">
+          <h2 class="sub-title">My Portfolio</h2>
+          <h3 class="title">Awesome Works</h3>
+          <div class="project-list">
+            <div class="project">
+              <img src="cccccc.jpg" alt="project1" />
+              <div class="layer">
+                <h3>Image Search Application</h3>
+                <p>
+                  Build a Image Search app using HTML, CSS , JavaScript and Images API
+                  Build it using fundamental concepts of HTML,CSS & Javascript. It can search and show all
+                  the images across the internet.
+                </p>
+                <a href=" https://gd44g.github.io/Image-search-App/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="bbbbbb.jpg" alt="project2" />
+              <div class="layer">
+                <h3>Portfolio</h3>
+                <p>
+                  Created a personal portfolio website using HTML, CSS JavaScript. It is a fully responsive
+                  with Home, About, Education , Skills and Contact section
+                </p>
+                <a href="https://github.com/gd44g/PORTFOLIO.git"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="aaaaaa.jpg" alt="project3" />
+              <div class="layer">
+                <h3>Currency converter</h3>
+                <p>
+                  Implemented a currency converter application using [html,css and js] with features like user
+                  input validation, real-time exchange rate fetching, and displaying historical conversion rates
+                </p>
+                <a href="https://gd44g.github.io/currency-converter/"
+                  ><i class="fa fa-external-link" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="section-title">
+          <h2 class="sub-title">Contact</h2>
+          <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+          <div class="contact-left">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="vl"></div>
+          <div class="contact-right">
+            <div class="col address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="info">
+                <h2 class="title">Address</h2>
+                <p>Wagholi,Tal-Haveli,Dist-Pune,Pincode-412207</p>
+              </div>
+            </div>
+            <div class="col phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="info">
+                <h2 class="title">Phone</h2>
+                <p>+917385952708</p>
+              </div>
+            </div>
+            <div class="col email">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="info">
+                <h2 class="title">Email</h2>
+                <p>dakeg3333@gmail</p>
+              </div>
+            </div>
+            <div class="col website">
+              <i class="fa-solid fa-globe"></i>
+              <div class="info">
+                <h2 class="title">Website</h2>
+                <p>www.gd4.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©️ GD4 | Made with
+            <i class="fa-solid fa-heart"></i> by
+            <a href="#">dakeganesh</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
